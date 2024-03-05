@@ -9,15 +9,15 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Dev Projects Blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Ben James Dodwell`,
+      summary: `who works with IT Infrastructure, and enjoys learning web development (PHP and Laravel framework) and DevOps methodologies.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `A GitHub Pages Blog using Gatsby, covering personal projects relating to Software Development, DevOps, and Cloud Infrastructure.`,
+    siteUrl: `https://ben-james-dodwell.github.io/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: ``,
     },
   },
   plugins: [
