@@ -16,9 +16,6 @@ module.exports = {
     },
     description: `A GitHub Pages Blog using Gatsby, covering personal projects relating to Software Development, DevOps, and Cloud Infrastructure.`,
     siteUrl: `https://ben-james-dodwell.github.io/`,
-    social: {
-      twitter: ``,
-    },
   },
   plugins: [
     `gatsby-plugin-image`,
