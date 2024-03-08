@@ -29,7 +29,7 @@ const Bio = () => {
 
   return (
     <div className="bio">
-      <a href={author.linkedin} target="_blank">
+      <a href={author.linkedin} target="_blank" rel="noreferrer">
         <StaticImage
           className="bio-avatar"
           layout="fixed"
