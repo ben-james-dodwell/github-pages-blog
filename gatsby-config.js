@@ -13,6 +13,7 @@ module.exports = {
     author: {
       name: `Ben James Dodwell`,
       summary: `who works with IT Infrastructure, and enjoys learning web development (PHP and Laravel framework) and DevOps methodologies.`,
+      linkedin: `https://www.linkedin.com/in/ben-dodwell/`,
     },
     description: `A GitHub Pages Blog using Gatsby, covering personal projects relating to Software Development, DevOps, and Cloud Infrastructure.`,
     siteUrl: `https://ben-james-dodwell.github.io/`,

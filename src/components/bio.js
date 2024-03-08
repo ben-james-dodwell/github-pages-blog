@@ -17,6 +17,7 @@ const Bio = () => {
           author {
             name
             summary
+            linkedin
           }
         }
       }
@@ -28,16 +29,18 @@ const Bio = () => {
 
   return (
     <div className="bio">
-      <StaticImage
-        className="bio-avatar"
-        layout="fixed"
-        formats={["auto", "webp", "avif"]}
-        src="../images/profile-pic.jpg"
-        width={50}
-        height={50}
-        quality={95}
-        alt="Profile picture"
-      />
+      <a href={author.linkedin} target="_blank">
+        <StaticImage
+          className="bio-avatar"
+          layout="fixed"
+          formats={["auto", "webp", "avif"]}
+          src="../images/profile-pic.jpg"
+          width={50}
+          height={50}
+          quality={95}
+          alt="Profile picture"
+        />
+      </a>
       {author?.name && (
         <p>
           Written by <strong>{author.name}</strong> {author?.summary || null}
