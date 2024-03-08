@@ -1,7 +1,7 @@
 ---
-title: DNS and HTTPS
+title: "Cloud Resume Challenge: DNS and HTTPS"
 date: "2024-03-07T08:56:00.000Z" 
-description: "Configuring DNS and HTTPS."
+description: "Configuring Route 53 and CloudFront."
 ---
 
 Before I begin with the technical work, I want to quickly cover terminology. This project is named The Cloud Resume Challenge but the word resume is less commonly used in the United Kingdom when compared to Curriculum Vitae or CV. There is a [difference](https://www.grammarly.com/blog/cv-resume/) in that a resume should be a summary of relevant experience and skills tailored towards a specific job, whereas a CV is more academically focused and usually a complete history. Resume is probably the more appropriate description of the document that I intend to publish with this project, but nevertheless they are treated almost interchangeably in my country so I will use CV as the more popular term.

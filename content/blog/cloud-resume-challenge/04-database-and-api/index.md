@@ -1,7 +1,7 @@
 ---
-title: Database and API
+title: "Cloud Resume Challenge: Database and API"
 date: "2024-03-08T08:02:00.000Z" 
-description: "Configuring the back-end infrastructure and code."
+description: "Configuring a DynamoDB table, Lambda function, and API Gateway."
 ---
 
 The next stage of the challenge is to add a visitor counter to the website, which is a little arbitrary since there are obviously much better solutions such as Google Analytics. However, this artificially gives us a reason to create some back-end infrastructure and introduce a few more AWS services to the mix. I feel that this stage comes with a level of flexibility and opportunity to be creative, but I will start simple and meet the basic requirements then potentially make improvements in the future.

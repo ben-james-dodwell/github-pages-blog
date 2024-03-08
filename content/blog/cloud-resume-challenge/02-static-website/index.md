@@ -1,7 +1,7 @@
 ---
-title: AWS Account and S3 Static Website
+title: "Cloud Resume Challenge: Static Website"
 date: "2024-03-06T10:08:00.000Z"
-description: "Setting up the AWS account and S3 bucket."
+description: "Configuring the AWS account and an S3 bucket."
 ---
 
 I have a personal AWS account, though it hasn't been used in a long time, so it needed a bit of basic housekeeping. Following the dashboard recommendations, I removed access keys and enabled MFA on the root account, then enabled an IAM Identity Center directory and created myself a separate IAM account for day-to-day usage. MFA is also required for IAM accounts.
@@ -34,6 +34,6 @@ Public access is blocked on a new bucket by default, but for this project it is 
 
 And this gives me a publicly accessible static website:
 
-![S3 Static Website](image.png)
+![S3 Static Website](static-website.png)
 
 We're off to a good start.
